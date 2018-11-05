@@ -8,7 +8,7 @@
     "react-flip-move": "^3.0.3",
     "react-scripts": "2.1.1"
   },
-  "homepage" : "https://aloonballoongithub.io/todo",
+  "homepage" : "https://aloonballoon.github.io/todo",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
