@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ToDoItems from './todoitems';
+import './todolist.css';
 
 class ToDoList extends Component {
   constructor(props) {
@@ -13,6 +14,8 @@ class ToDoList extends Component {
   }
 
   addItem(e) {
+    e.preventDefault();
+
     const itemArray = this.state.items;
 
     if (this._inputElement.value !== "") {
@@ -27,10 +30,6 @@ class ToDoList extends Component {
     });
 
     this._inputElement.value = "";
-
-    console.log(itemArray);
-
-    e.preventDefault();
   }
 
   render() {
