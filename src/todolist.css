@@ -2,6 +2,7 @@
   padding: 10px;
   font-size: 16px;
   border: 2px solid #FFF;
+  border-radius: 5px;
   width: 165px;
 }
 
@@ -13,6 +14,7 @@
   background-color: #0066FF;
   color: #FFF;
   border: 2px solid #0066FF;
+  border-radius: 5px;
 }
 
 .todoListMain .header button:hover {
